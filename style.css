@@ -31,15 +31,15 @@ body {
   align-items: center;
 }
 .card__QR {
-  width: 80%;
+  width: 70%;
   height: 70%;
   background-color: var(--cuarto_color);
-  border-radius: 35px;
+  border-radius: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px;
-  padding-top: 40px;
+  padding: 7px;
+  padding-top: 30px;
   text-align: center;
 }
 .card__QR img {
@@ -48,30 +48,22 @@ body {
   border-radius: inherit;
   object-fit: cover;
 }
-.card__QR img {
-  height: 60%;
-  width: 95%;
-  border-radius: inherit;
-  object-fit: cover;
-}
-
 .card__QR .title__card {
   color: var(--tercero_color);
   padding: 20px 0;
   font-weight: 700;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 .card__QR .text__card {
   color: var(--segundo_color);
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 1.18em;
 }
-
 /* vercion desktop */
 @media (min-width: 500px) {
   .card__QR {
-    height: 500px;
-    width: 380px;
+    height: 550px;
+    width: 360px;
   }
   .card__QR img {
     height: 60%;
