@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+:root {
+  --primer_color: rgb(214, 226, 240);
+  --segundo_color: rgb(104, 119, 141);
+  --tercero_color: rgb(31, 50, 81);
+  --cuarto_color: rgb(255, 255, 255);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* vercion mobile */
+
+body {
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--segundo_color);
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  background-color: var(--primer_color);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__QR {
+  width: 80%;
+  height: 70%;
+  background-color: var(--cuarto_color);
+  border-radius: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  padding-top: 40px;
+  text-align: center;
+}
+.card__QR img {
+  height: 60%;
+  width: 95%;
+  border-radius: inherit;
+  object-fit: cover;
+}
+.card__QR img {
+  height: 60%;
+  width: 95%;
+  border-radius: inherit;
+  object-fit: cover;
+}
+
+.card__QR .title__card {
+  color: var(--tercero_color);
+  padding: 20px 0;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+.card__QR .text__card {
+  color: var(--segundo_color);
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+/* vercion desktop */
+@media (min-width: 500px) {
+  .card__QR {
+    height: 500px;
+    width: 380px;
+  }
+  .card__QR img {
+    height: 60%;
+    width: 95%;
+    border-radius: 22px;
+    object-fit: cover;
+  }
+}
