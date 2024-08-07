@@ -31,43 +31,46 @@ body {
   align-items: center;
 }
 .card__QR {
-  width: 70%;
-  height: 70%;
+  width: 300px !important;
+  height: 450px !important;
   background-color: var(--cuarto_color);
-  border-radius: 40px;
+  border-radius: 22px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 7px;
-  padding-top: 30px;
+  padding-top: 8px;
   text-align: center;
 }
 .card__QR img {
   height: 60%;
-  width: 95%;
+  width: 98%;
   border-radius: inherit;
   object-fit: cover;
 }
 .card__QR .title__card {
   color: var(--tercero_color);
   padding: 20px 0;
-  font-weight: 700;
-  font-size: 1.3em;
+  font-weight: 600;
+  font-size: 1.1em;
 }
 .card__QR .text__card {
   color: var(--segundo_color);
   font-weight: 400;
-  font-size: 1.18em;
+  font-size: 0.88em;
 }
 /* vercion desktop */
 @media (min-width: 500px) {
-  .card__QR {
-    height: 550px;
-    width: 360px;
+  .card__QR .title__card {
+    font-weight: 700;
+    font-size: 1.2em;
   }
+  .card__QR .text__card {
+    font-weight: 400;
+    font-size: 1.13em;
+  }
+
   .card__QR img {
-    height: 60%;
-    width: 95%;
     border-radius: 22px;
     object-fit: cover;
   }
