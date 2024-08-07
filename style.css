@@ -32,7 +32,7 @@ body {
 }
 .card__QR {
   width: 300px !important;
-  height: 450px !important;
+  height: 550px !important;
   background-color: var(--cuarto_color);
   border-radius: 22px;
   display: flex;
@@ -63,11 +63,11 @@ body {
 @media (min-width: 500px) {
   .card__QR .title__card {
     font-weight: 700;
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
   .card__QR .text__card {
     font-weight: 400;
-    font-size: 1.13em;
+    font-size: 1.19em;
   }
 
   .card__QR img {
