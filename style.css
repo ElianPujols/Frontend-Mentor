@@ -39,7 +39,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 7px;
-  padding-top: 18px;
+  padding-top: 16px;
   text-align: center;
 }
 .card__QR img {
