@@ -32,14 +32,14 @@ body {
 }
 .card__QR {
   width: 290px !important;
-  height: 498px !important;
+  height: 499px !important;
   background-color: var(--cuarto_color);
   border-radius: 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 7px;
-  padding-top: 12px;
+  padding-top: 18px;
   text-align: center;
 }
 .card__QR img {
@@ -50,9 +50,9 @@ body {
 }
 .card__QR .title__card {
   color: var(--tercero_color);
-  padding: 20px 0;
+  padding: 23px 0;
   font-weight: 600;
-  font-size: 1.2em;
+  font-size: 1.3em;
   text-align: center;
 }
 .card__QR .text__card {
